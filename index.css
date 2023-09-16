@@ -1,0 +1,22 @@
+.slide {
+    width: 500px;
+    position: relative;
+}
+
+.slide-bg {
+    position: asbolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.slide-text {
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+}
